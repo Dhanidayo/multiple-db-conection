@@ -1,5 +1,5 @@
-const db1 = require("../modelsandconnections/db1");
-const db2 = require("../modelsandconnections/db2");
+const db1 = require("../connections/db1");
+const db2 = require("../connections/db2");
 
 const express = require('express');
 const router = express.Router();

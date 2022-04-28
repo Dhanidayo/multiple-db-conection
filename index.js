@@ -1,5 +1,5 @@
-require("./src/modelsandconnections/db1");
-require("./src/modelsandconnections/db2");
+require("./src/connections/db1");
+require("./src/connections/db2");
 const express = require('express');
 const routes = require('./src/routes/userRoutes');
 const mongoose = require('mongoose');
